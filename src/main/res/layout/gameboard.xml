@@ -135,16 +135,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Peek"
+            android:id="@+id/pe"
             android:onClick="peek"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Flip"
+            android:id="@+id/fl"
             android:onClick="flip"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Swap"
+            android:id="@+id/sw"
             android:onClick="swap"/>
     </LinearLayout>
 </RelativeLayout>
